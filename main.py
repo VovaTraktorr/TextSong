@@ -2,6 +2,7 @@ import lyricsgenius
 import telebot
 import flask
 import os
+from telebot import types
 
 server = flask.Flask(__name__)
 app_name = 'textsong'
