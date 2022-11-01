@@ -33,7 +33,7 @@ def get_message():
 def index():
     print("hello webhook!")
     bot.remove_webhook()
-    bot.set_webhook(url=f"https://{app_name}.herokuapp.com/{token}")
+    bot.set_webhook(url=f"https://{app_name}.herokuapp.com/{token_bot}")
     return "Hello from Heroku!", 200
 
 
