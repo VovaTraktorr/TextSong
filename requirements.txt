@@ -1,2 +1,4 @@
 pytelegrambotapi
 lyricsgenius
+flask
+gunicorn
